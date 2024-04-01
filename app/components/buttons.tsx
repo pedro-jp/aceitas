@@ -62,8 +62,6 @@ export const BtnSim = () => {
       ) : (
         ''
       )}
-
-      {clicked ? <span className={styles.aee}>AEEEEEEE!!</span> : ''}
     </div>
   );
 };

@@ -18,25 +18,3 @@
 #blue {
   background-color: blue;
 }
-
-.aee {
-  position: absolute;
-  font-size: 2rem;
-  color: red;
-  animation: fonte 1s 0s infinite;
-  z-index: 100000;
-}
-
-@keyframes fonte {
-  0% {
-    transform: scale(0.5);
-  }
-
-  50% {
-    transform: scale(1);
-  }
-
-  100% {
-    transform: scale(0.5);
-  }
-}
