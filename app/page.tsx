@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Aceitas treinar comigo?</title>
-        <meta property='og:title' content='Aceitas treinar comigo?' />
+        <meta property='og:title' content='Bora treinar' />
         <meta property='og:description' content='Melhorou da gripe????' />
         <meta property='og:url' content='https://borafessora.vercel.app' />
         <meta
