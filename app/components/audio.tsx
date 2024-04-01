@@ -39,7 +39,6 @@ export const Audio = () => {
       ref={audioRef}
       src='https://borafessora.vercel.app/assets/audios/msc.ogg'
       autoPlay
-      controls
       onPlay={() => console.log('Audio is playing')}
       onError={() => console.log('Error playing the audio')}
     />
