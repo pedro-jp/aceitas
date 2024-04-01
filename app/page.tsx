@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 import { BtnSim, BtnNao } from './components/buttons';
 import Head from 'next/head';
+import { Audio } from './components/audio';
 
 export default function Home() {
   const getOut = () => {};
@@ -16,9 +17,7 @@ export default function Home() {
           content='https://borafessora.vercel.app/assets/imgs/giga.jpeg'
         />
       </Head>
-
-      <audio src='./assets/audios/msc.ogg' autoPlay />
-
+      <Audio />
       <h1 className={styles.tittle}>Aceitas treinar comigo?</h1>
       <main className={styles.main}>
         <BtnNao />
