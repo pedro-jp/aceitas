@@ -17,12 +17,7 @@ export default function Home() {
         />
       </Head>
 
-      <audio
-        src='https://borafessora.vercel.app/assets/audios/msc.ogg'
-        autoPlay
-      >
-        O seu navegador não suporta o elemento <code>audio</code>.
-      </audio>
+      <audio src='./assets/audios/msc.ogg' autoPlay />
 
       <h1 className={styles.tittle}>Aceitas treinar comigo?</h1>
       <main className={styles.main}>
