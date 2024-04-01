@@ -17,7 +17,13 @@ export const BtnNao = () => {
   };
 
   return (
-    <button className={styles.btn} id={styles.blue} style={style} onClick={getOut} onMouseEnter={getOut}>
+    <button
+      className={styles.btn}
+      id={styles.blue}
+      style={style}
+      onClick={getOut}
+      onMouseEnter={getOut}
+    >
       Não
     </button>
   );
@@ -45,15 +51,19 @@ export const BtnSim = () => {
 
   return (
     <div className={styles.container}>
-      <button className={styles.btn} onClick={handleYes}>sim</button>
+      <button className={styles.btn} onClick={handleYes}>
+        sim
+      </button>
 
       {clicked ? (
-        <video ref={videoRef} preload='none' autoPlay>
+        <video ref={videoRef} className={styles.video} preload='none' autoPlay>
           <source src='../assets/videos/video.mp4' type='video/mp4' />
         </video>
       ) : (
         ''
       )}
+
+      {clicked ? <span className={styles.aee}>AEEEEEEE!!</span> : ''}
     </div>
   );
 };

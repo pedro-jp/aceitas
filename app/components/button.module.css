@@ -1,16 +1,42 @@
 .video {
-  width: 100vw;
+  max-width: 100vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn {
   width: 70px;
   height: 25px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
-  color: #FFF;
+  color: #fff;
   background-color: red;
 }
 
-#blue{
+#blue {
   background-color: blue;
+}
+
+.aee {
+  position: absolute;
+  font-size: 2rem;
+  color: red;
+  animation: fonte 1s 0s infinite;
+  z-index: 100000;
+}
+
+@keyframes fonte {
+  0% {
+    transform: scale(0.5);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.5);
+  }
 }
