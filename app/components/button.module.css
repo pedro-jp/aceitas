@@ -1,0 +1,16 @@
+.video {
+  width: 100vw;
+}
+
+.btn {
+  width: 70px;
+  height: 25px;
+  border-radius: .5rem;
+  border: none;
+  color: #FFF;
+  background-color: red;
+}
+
+#blue{
+  background-color: blue;
+}
