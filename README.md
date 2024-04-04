@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Mude as metatags do page.tsx e do html bo public
+## Mude as metatags do page.tsx e do html no public
 
 ## Clona o repositório e faz o deploy na vercel com a sua conta do github
 
