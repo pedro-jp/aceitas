@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Mude as metatags do page.tsx e do html bo public
 
-## Clona o repositório e faz o deply na vercel com a sua conta do github
+## Clona o repositório e faz o deploy na vercel com a sua conta do github
 
 ## Getting Started
 
